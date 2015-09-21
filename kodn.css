@@ -143,3 +143,51 @@ h1 span {
 		-webkit-transform: rotateY(0deg);
 	}
 }
+
+@-moz-keyframes all {
+        0%   {
+                -moz-transform: rotateY(0deg);
+        }
+        50%    {
+                -moz-transform: rotateY(-90deg);
+        }
+        100%    {
+                -moz-transform: rotateY(0deg);
+        }
+}
+
+@-ms-keyframes all {
+        0%   {
+                -ms-transform: rotateY(0deg);
+        }
+        50%    {
+                -ms-transform: rotateY(-90deg);
+        }
+        100%    {
+                -ms-transform: rotateY(0deg);
+        }
+}
+
+@-o-keyframes all {
+        0%   {
+                -o-transform: rotateY(0deg);
+        }
+        50%    {
+                -o-transform: rotateY(-90deg);
+        }
+        100%    {
+                -o-transform: rotateY(0deg);
+        }
+}
+
+@keyframes all {
+        0%   {
+                transform: rotateY(0deg);
+        }
+        50%    {
+                transform: rotateY(-90deg);
+        }
+        100%    {
+                transform: rotateY(0deg);
+        }
+}
